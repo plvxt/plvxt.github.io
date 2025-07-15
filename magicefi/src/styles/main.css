@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    user-select: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left-side {
+    width: 50%;
+    background-color: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side {
+    width: 50%;
+    background-color: #3B82F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.description {
+    text-align: center;
+    margin: 1rem 0;
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.download-section {
+    text-align: center;
+    width: 100%;
+}
+
+.version {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.download-btn {
+    background-color: #3B82F6;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: #2563EB;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+}
+
+.credits {
+    margin-top: 2rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.credits a {
+    color: #3B82F6;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.credits a:hover {
+    color: #2563EB;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
