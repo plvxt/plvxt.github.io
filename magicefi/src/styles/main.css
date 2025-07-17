@@ -65,6 +65,13 @@ body {
     font-size: 1.1rem;
 }
 
+.button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
 .download-btn {
     background-color: #3B82F6;
     color: white;
@@ -82,6 +89,25 @@ body {
 
 .download-btn:hover {
     background-color: #2563EB;
+}
+
+.youtube-btn {
+    background-color: #FF0000;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.youtube-btn:hover {
+    background-color: #CC0000;
 }
 
 .screenshot {
@@ -119,5 +145,9 @@ body {
 
     .title {
         font-size: 2rem;
+    }
+
+    .button-container {
+        flex-direction: column;
     }
 }
