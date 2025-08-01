@@ -1,3 +1,8 @@
-¡NUEVO! ➤ Avisos de nueva versión
-Corrección ➤ Agregado barra de scroll
-Corrección ➤ Solucionado error de DevTools
+➤ New experience
+➤ Revamped UI
+➤ More detailed info
+➤ New tray icon
+➤ Settings section
+➤ New drive icons
+➤ Start on boot
+➤ Fixed some bugs
