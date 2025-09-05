@@ -1,8 +1,6 @@
-➤ New experience
-➤ Revamped UI
-➤ More detailed info
-➤ New tray icon
-➤ Settings section
-➤ New drive icons
-➤ Start on boot
 ➤ Fixed some bugs
+➤ Added "Legacy Icons" button
+➤ Added "Hide" button
+➤ The exit button has been moved to Settings
+➤ Revamped update window
+➤ Added splash screen
